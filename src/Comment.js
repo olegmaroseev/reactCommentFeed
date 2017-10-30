@@ -13,10 +13,6 @@ class Comment extends Component {
 					<div className="bubble">
 						<h3>@ilon_musk</h3><br/>
 					       {this.props.comText}
-						<div className="over-bubble">
-							<div className="icon-mail-reply action"></div>
-							<div className="icon-star"></div>
-						</div>
 					</div>
 					<div className="arrow"></div>
 				</div>
